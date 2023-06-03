@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+.container {
+    background: hsl(233, 47%, 7%);
+    padding: 100px;
+}
+
+.general {
+    /* border: 2px solid red; */
+   
+    padding: .2rem;
+    margin: 203px;
+    width: 55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.general img {
+    overflow: hidden;
+    width: 50rem;
+    /* background-image:linear-gradient(90deg,hsl(277, 64%, 61%)); */
+}
+
+.personal {
+    background: hsl(244, 38%, 16%);
+    height: 21rem;
+    
+}
+
+.personal h1  {
+    font-size: 1.7rem;
+    padding: 2rem 4.5rem 0rem 3rem;
+    color: hsl(0, 0%, 100%);
+}
+.personal span {
+    color: hsl(277, 64%, 61%);
+}
+
+.personal p {
+    font-size: 1rem;
+    padding: 0rem 4rem 0rem 3rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: hsl(0, 0%, 100%);
+}
+
+.child1, .child2, .child3 {
+    padding: 0rem 1rem 0rem 3rem;
+}
+.child1,
+.child2,
+.child3, p {
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+    
